@@ -28,6 +28,7 @@ body {
     border: 10px;
     min-width: 30%;
     overflow: auto;
+    height: 100vh;
 }
 
 h1 {
