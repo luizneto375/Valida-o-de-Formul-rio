@@ -12,7 +12,7 @@ com esssa função, podemos sempre chamar ela para poder ativar essa funcionalid
 
 <img width="272" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/63f10e8a-6f2c-4a92-bd03-3a71a9c19ee3"> <img width="272" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/98250179-b220-44d5-a3c0-fcdaa0ac1cad">
 
-- OBS: do mesmo jeito que fizemos uma função para ativar a mensagem de erro, temos que criar outra função para, retirar essa mensagem de erro assim, que o nosso input obedeça os criterios passados, que obs: eu atualizei para 4 caracteres, ficou assim;
+- OBS: do mesmo jeito que fizemos uma função para ativar a mensagem de erro, temos que criar outra função para, retirar essa mensagem de erro assim, que o nosso input obedeça os criterios passados, que obs: eu atualizei para 4 caracteres, ficou assim; Dessa forma podemos fazer para o resto dos inputs, com funções e estruturas condicionais.
 
 <img width="273" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/9662f3dc-bc53-4a95-990e-449270bf4e7e"> <img width="309" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/9a1f55dc-fa70-4423-bc6a-f65d595d8051">
 
