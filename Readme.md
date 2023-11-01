@@ -16,12 +16,16 @@ com esssa função, podemos sempre chamar ela para poder ativar essa funcionalid
 
 <img width="273" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/9662f3dc-bc53-4a95-990e-449270bf4e7e"> <img width="309" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/9a1f55dc-fa70-4423-bc6a-f65d595d8051">
 
-- Vamos usar o console, para podermos testar o nosso segundo input, lembrando que se ele não tiver as estruturas de um email, ele não sera validado e mostrar um mensagem de erro, e se ele tiver com as estruras de um email, mostrar uma mensagem com validação.
+- Vamos usar o console, para podermos testar o nosso segundo input, lembrando que se ele não tiver as estruturas de um email, ele não sera validado e mostrar um mensagem de erro, e se ele tiver com as estruras de um email será validado.
 <img width="325" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/319cb83b-9510-4a54-babf-ed119a500d49"> <img width="262" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/b2825c03-f016-48bf-bf8b-8b5bc0a01348">  <img width="256" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/c5a56031-9a38-4b41-8571-5623b3bb9230">
 
 já com as estruturas de email:
 
 <img width="270" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/16736c4f-8485-417f-9530-040b0915f897"> <img width="249" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/eacabf35-6fcb-421c-9d53-a59c77e1870e">
+
+Passando para o projeto fica assim: 
+<img width="254" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/703c1876-14e6-4fd2-af67-da08de679cc3">  <img width="262" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/d3e1b259-2721-484c-9bd4-408c5e6f19ce"> 
+
 
 
 
