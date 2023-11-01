@@ -21,12 +21,12 @@
             </div>
 
             <div>
-                <input type="password" placeholder="Senha" class="inputs required">
+                <input type="password" placeholder="Senha" class="inputs required" oninput="validarSenhaPassword()">
                 <span class="span-required">Digite uma senha com no mínimo 8 caracteres</span>
             </div>
 
             <div>
-                <input type="password" placeholder="Repita a sua senha" class="inputs required">
+                <input type="password" placeholder="Repita a sua senha" class="inputs required" oninput="compararSenhasPassword()">
                 <span class="span-required">As senhas devem ser compativeis</span>
             </div>
             <textarea class="inputs" name="descricao" id="descricao" cols="25" rows="10" placeholder="Fale um pouco sobre você..."></textarea>

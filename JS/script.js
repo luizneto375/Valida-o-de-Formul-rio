@@ -5,6 +5,15 @@ const campos = document.querySelectorAll(".required");
 const spans = document.querySelectorAll(".span-required");
 const emailRegex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i; // Isso pegamos pronto na net, serve para podermos validar, ex: se o email possui um @, possui pontução para poder saber se possui realmente uma estrutura de email, etc...
 
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    validarPrimeiroInput();
+    validarEmail();
+    validarSenhaPassword();
+    compararSenhasPassword();
+
+});
+
 
 // Vamos começar, fazendo a validação do nome, ou seja no nosso primeiro campo input, com indice[0], vamos usar funções, de acordo com o nosso primiero input, para vefiricar temos que ter no minimo 3 caracteres, então vamos trabalhar em cima disso, para poder validar esse input
 
@@ -37,3 +46,20 @@ function validarEmail() {
     }
 }
 
+
+function validarSenhaPassword() {
+    if(campos[2].value.length < 8) {
+        mensagemDeErro(2);
+    } else {
+        removerMensagemDErro(2);
+        compararSenhasPassword()
+    }
+}
+
+function compararSenhasPassword() {
+    if(campos[2].value === campos[3].value && campos[3].value.length >= 8) {
+        removerMensagemDErro(3);
+    } else {
+        mensagemDeErro(3);
+    }
+}
