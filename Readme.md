@@ -10,5 +10,7 @@ Essa função é a que vai fazer acontecer essa parte refente o seguinte, toda v
 
 com esssa função, podemos sempre chamar ela para poder ativar essa funcionalidade em todos os inputs, em vez de criar mais codigos, então eu só passa a função e passo o indice certo para poder ativar essa função.
 
-<img width="272" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/63f10e8a-6f2c-4a92-bd03-3a71a9c19ee3"> 
+<img width="272" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/63f10e8a-6f2c-4a92-bd03-3a71a9c19ee3"> <img width="272" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/98250179-b220-44d5-a3c0-fcdaa0ac1cad">
+
+
 
