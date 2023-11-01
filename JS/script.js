@@ -26,5 +26,14 @@ function validarPrimeiroInput() {
 } else {
    removerMensagemDErro(0);
 }
+
+}
+
+function validarEmail() {
+    if(!emailRegex.test(campos[1].value)) {
+        mensagemDeErro(1);
+    } else {
+        removerMensagemDErro(1);
+    }
 }
 
