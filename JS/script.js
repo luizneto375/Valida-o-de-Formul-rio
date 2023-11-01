@@ -8,10 +8,18 @@ const emailRegex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\")
 
 // Vamos começar, fazendo a validação do nome, ou seja no nosso primeiro campo input, com indice[0], vamos usar funções, de acordo com o nosso primiero input, para vefiricar temos que ter no minimo 3 caracteres, então vamos trabalhar em cima disso, para poder validar esse input
 
+function mensagemDeErro(index) {
+    campos[index].style.border = "2px solid #e33636" //vamos pegar a variavel campos que é exatamente o [0], no array, ou seja referente ao primeiro input, e vou colocar um estile nele.
+    spans[index].style.display = "block";// aqui eu estou ativando a mensagem do nosso span
+    
+    
+}// Essa função é a que vai fazer acontecer essa parte refente o seguinte, toda vez que eu chamar essa função, eu vou passar qual é o indice, vamos passar essa função para dentro das função de validação, com a condição,  vamos fazer que aconteça o seguinte, sempre que a validação dos inputs não estiver correta, vai ser mostrado uma mensagem juntamente com um borda vermelha, em volta do nosso input, e a mensagem de erro em baixo de input requerido...
+
 function validarPrimeiroInput() {
     if(campos[0].value.length < 3) {
-        document.querySelector("h1").innerHTML = "Validação acima de 3 caracteres!!!!"//pegando o valor do primeiro input,que sera o nosso primiero indice do array[0], vamos fazer uma condição pegando o seu valor do input e o tamanho dessa entrada, e vamos fazer essa verificação com com if, assim ele só vai validar se o tamanho da entrada do input for maior que 3 caracteres...se for menor que 3, eu vou estar mostrando um erro com uma mensagem direto na pagina, em baixo no nosso inputm dentro de um span
+       mensagemDeErro(0);//pegando o valor do primeiro input,que sera o nosso primeiro indice do array[0], vamos fazer uma condição pegando o seu valor do input e o tamanho dessa entrada, e vamos fazer essa verificação com com if, assim ele só vai validar se o tamanho da entrada do input for maior que 3 caracteres...se for menor que 3, eu vou estar mostrando um erro com uma mensagem direto na pagina, em baixo no nosso input dentro de um span
 } else {
-    document.querySelector("h1").innerHTML = "OK! Validação aceita!!"
+   
 }
 }
+
