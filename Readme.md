@@ -4,3 +4,11 @@
 
  - Primeiro pegamos os elementos do html, através do seu Id, ou classes, para podermos trabalhar com esses elementos.
  - Segundo vamos começar, fazendo a validação do nome, ou seja no nosso primeiro campo input, com indice[0], vamos usar funções, de acordo com o nosso primeiro input do nosso html, ele diz o seguinte para verificar temos que ter no minimo 3 caracteres, então vamos trabalhar em cima disso, para poder validar esse input, pegando o valor do primeiro input, que sera o nosso primeiro indice do array[0], vamos fazer uma condição pegando o seu valor do input e o tamanho dessa entrada, e vamos fazer essa verificação com com if, assim ele só vai validar se o tamanho da entrada do input for maior que 3 caracteres...se for menor que 3, eu vou estar mostrando um erro com uma mensagem direto na pagina, e se for maior que três caracteres, vai ser mostrado um mensagem informando que nome foi validado, em baixo no nosso input dentro de um span
+
+- vamos pegar a variavel campos que é exatamente o [0], no array, ou seja referente ao primeiro input, e vou colocar um estile nele, que vai mostrar um borda vermelha, em torno de um input, mostrando um erro, até que realmente atenta o que está sendo pedido, na condição para poder validar esse nome, vamos fazer isso em todos os campos inputs  
+Essa função é a que vai fazer acontecer essa parte refente o seguinte, toda vez que eu chamar essa função, eu vou passar qual é o indice, vamos passar essa função para dentro das função de validação, com a condição,  vamos fazer que aconteça o seguinte, sempre que a validação dos inputs não estiver correta, vai ser mostrado uma mensagem juntamente com um borda vermelha, em volta do nosso input, e a mensagem de erro em baixo de input requerido...
+
+com esssa função, podemos sempre chamar ela para poder ativar essa funcionalidade em todos os inputs, em vez de criar mais codigos, então eu só passa a função e passo o indice certo para poder ativar essa função.
+
+<img width="272" alt="image" src="https://github.com/luizneto375/Valida-o-de-Formul-rio/assets/114784434/63f10e8a-6f2c-4a92-bd03-3a71a9c19ee3"> 
+
